@@ -35,7 +35,7 @@ themselves, and the program only copies the finished page.
 
 | File | What it is |
 | --- | --- |
-| `entry.png` | The finished 1024×1024 cover (337,212 bytes) |
+| `entry.png` | The finished 1024×1024 cover (337,212 bytes, JPEG-encoded — a lossless PNG of the same page is 1.39 MB, over the 1 MiB harness cap; the harness accepts PNG/JPEG) |
 | `main.py` | Harness entrypoint: copies `entry.png` byte-for-byte to `/output/entry.png` |
 | `compose.py` | Builds `entry.png` from the photos in `assets/` |
 | `assets/` | The four photorealistic source photographs |
